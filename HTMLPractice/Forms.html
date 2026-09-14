@@ -6,26 +6,28 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="">
-        <!-- <label for="u1">Username:</label>
+    <form action="/Hyperlinks.html" method="get">
+      <fieldset>
+        <legend><b>Registration Form</b></legend>
+        <label for="u1">Username:</label>
         <input type="text" id="u1" name="uname"
-          maxlength="6" placeholder="Enter Username" size="50">
+          maxlength="6" placeholder="Enter Username" size="50" required>
 
           <br><br>
         
           <label for="p1">Password:</label>
-          <input type="password" id="p1" name="password" minlength="5">
+          <input type="password" id="p1" name="password" minlength="5" autofocus>
 
           <br><br>
 
           <label for="e1">Email:</label>
-          <input type="email" id="e1" name="email"> -->
+          <input type="email" id="e1" name="email" value="sakshi@gmail.com" disabled>
 
 
-          <!-- <br><br>
+          <br><br>
          <label for="add1">Enter Address:</label><br>
           <textarea name="address" id="add1" rows="10" cols="40">Jalandhar</textarea>
-          <br><br> -->
+          <br><br>
 
           <label for="h1">Hobbies:</label>
           <input type="checkbox" name="hobby" id="cook1" value="cooking">
@@ -55,13 +57,26 @@
           </select>
           
 
+          <br><br>
 
+          <label for="marks">Enter Marks:</label>
+          <input type="number" id="marks" max="20" min="0" step="3">
+
+          <label for="upload">Upload File:</label>
+          <input type="file" id="upload" name="upload" accept="image/*">
 
           <br><br>
-          <input type="submit">
+          <input type="date" id="date" name="date">
+          
+          <input type="time" id="time" name="time">
+
+
+          <input type="submit" name="submit" id="submit" value="Submit Form">
+          <input type="reset" id="reset">
+          <input type="button" value="OK">
 
         
-
+          </fieldset>
     </form>
 </body>
 </html>
