@@ -30,6 +30,22 @@
         .s1{
             background-color: yellow;
         }
+        /* hover is when u place the mouse cursor on the element */
+        a:hover{
+            color: blue;
+        }
+        p:first-child{
+            background-color: yellowgreen;
+        }
+        p:last-child{
+            background-color:tomato;
+        }
+        h1::before{
+            content: "Hello-";
+        }
+        p::after{
+            content: "OK";
+        }
     </style>
 
     <link rel="stylesheet" href="/CSS/mystyle.css">
@@ -80,12 +96,14 @@ function addition(){
        </section>
 
        <section class="s1">
+        <p>This is section </p>
             <h2>South Indian Recipes</h2>
 
             <article>
                 <h3>Dosa</h3>
                 <p>Dosa ingredients</p>
             </article>
+            <p>This is the last para of section</p>
 
        </section>
 
