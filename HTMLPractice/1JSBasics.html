@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1 onclick="alert('Welcome to my page')">This is heading</h1>
+    <script>
+        console.log("Welcome to javascript class");
+        console.log(10+6);
+        var section="K26NE";
+        var marks = 90;
+        var ispass = true;
+        var age;
+        var val = null;
+        console.log("My section is:", section , "and marks are:", marks);
+        console.log("My section is:"+ section + "and marks are:"+ marks);
+        console.log(typeof section, typeof marks, typeof ispass, 
+        typeof age, typeof val);
+
+        //1. Scope
+        if(5>2){
+            var course = "btech";
+            console.log(course);
+        }
+        console.log(course);
+
+        //2.
+        var x;
+        console.log(x);
+
+        //3. Redeclaration
+        var q = 50;
+        var q = "Hello";
+        console.log(q);
+
+        //4. Reassignment
+        var z = 80;
+        z=10;
+        console.log(z);
+
+        //5. Hoisting
+        console.log(r);
+        var r = 90;
+        
+    </script>
+
+    <!-- <script src="/JavascriptFolder/myscript.js"></script> -->
+</body>
+</html>
